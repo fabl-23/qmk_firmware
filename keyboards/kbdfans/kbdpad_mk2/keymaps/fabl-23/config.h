@@ -1,0 +1,7 @@
+#ifdef BACKLIGHT_LEVELS
+  #undef BACKLIGHT_LEVELS
+#endif
+
+#ifdef BACKLIGHT_PIN
+  #define BACKLIGHT_LEVELS 10
+#endif
